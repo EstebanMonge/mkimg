@@ -37,9 +37,9 @@ fi
 
 if [[ -f /usr/bin/gzip ]]
 then
-        gzip_path=/usr/bin/dd
+        gzip_path=/usr/bin/gzip
 else
-        gzip_path=/bin/dd
+        gzip_path=/bin/gzip
 fi
 
 ### Determine device to backup
